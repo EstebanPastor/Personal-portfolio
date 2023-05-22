@@ -1,11 +1,10 @@
-import React from "react";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.png"
 import reactImage from "../assets/react.png";
 import styled from "../assets/styled-components.png";
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/my-sql.png";
 import bootstrap from "../assets/bootstrap.png";
@@ -56,8 +55,8 @@ const Experience = () => {
     },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
+      src: typescript,
+      title: "Typescript",
       style: "shadow-gray-400",
     },
     {
