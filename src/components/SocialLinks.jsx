@@ -1,7 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 
-
 const SocialLinks = () => {
   const links = [
     {
@@ -30,15 +29,14 @@ const SocialLinks = () => {
           WhatsApp <FiPhone size={30} />
         </>
       ),
-      href:"https://api.whatsapp.com/send?phone=5493413629615&text=%C2%A1Contactate%20conmigo!",
+      href: "https://api.whatsapp.com/send?phone=5493413629615&text=%C2%A1Contactate%20conmigo!",
     },
-  
   ];
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style}) => (
+        {links.map(({ id, child, href, style }) => (
           <li
             key={id}
             className={
@@ -50,8 +48,6 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-             
-            
             >
               {child}
             </a>

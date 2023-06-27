@@ -7,6 +7,7 @@ import styled from "../assets/styled-components.png";
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/my-sql.png";
 import bootstrap from "../assets/bootstrap.png";
+import redux from "../assets/redux.png";
 
 const Experience = () => {
   const techs = [
@@ -62,6 +63,12 @@ const Experience = () => {
       id: 9,
       src: bootstrap,
       title: "Bootstrap",
+      style: "shadow-violet-400",
+    },
+    {
+      id: 9,
+      src: redux,
+      title: "Redux",
       style: "shadow-violet-400",
     },
   ];

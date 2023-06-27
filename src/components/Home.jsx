@@ -12,14 +12,19 @@ const Home = () => {
             Web developer
           </h2>
           <p className="text-white py-5 max-w-md">
-            Mi nombre es Esteban Andres Pastor, actualmente soy estudiante de la
-            tecnicatura universitaria en programación (UTN). Me encuentro en el
-            segundo año.
+            Mi nombre es Esteban Andres Pastor, soy un desarrollador
+            especializado en el desarrollo front-end y back-end enfocado a
+            resultados, utilización de buenas prácticas, calidad del código y
+            resolución de problemas a corto plazo. Poseo un aprendizaje rápido,
+            pensamiento lógico y escucha activa que hacen una adaptación rápida
+            a diferentes áreas / tecnologías.
           </p>
           <p className="text-white py-5 max-w-md">
-            My name is Esteban Andres Pastor, I am currently a student of the
-            university technical program in programming (UTN). I am currently in
-            the second year.
+            My name is Esteban Andres Pastor, I am a developer specialized in
+            front-end and back-end development focused on results, use of good
+            practices, code quality and resolution of short term problems. I
+            have a quick learner, thinking logic and active listening that make
+            a rapid adaptation to different areas / technologies.
           </p>
           <p className="text-white py-5 max-w-md">
             ¿Como contactarme? Envíame un mail: estebanandrespastor@gmail.com
