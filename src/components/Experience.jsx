@@ -12,8 +12,14 @@ const Experience = () => {
             Skills and experience
           </p>
           <p className="py-8">
+            Banco Galicia front-end developer (2024 - presente)
+          </p>
+          <p className="py-8">
             Estas son las tecnologias con las que he trabajado y sigo
             aprendiendo.
+          </p>
+          <p className="py-8">
+            Banco Galicia front-end developer (2024 - present)
           </p>
           <p className="py-8">
             These are the technologies with which I have worked and continue to
