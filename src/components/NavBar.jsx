@@ -1,26 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { links } from "../constants/links";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
-  const links = [
-    {
-      id: 1,
-      link: "home",
-    },
-    {
-      id:2,
-      link: "experience",
-    },
-    {
-      id: 3,
-      link: "about",
-    },
-  ];
-
-  return (
+return (
     <nav className="bg-black fixed w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">

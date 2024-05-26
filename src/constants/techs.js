@@ -1,19 +1,19 @@
-import html from "../src/assets/html.png";
-import css from "../src/assets/css.png";
-import javascript from "../src/assets/javascript.png";
-import typescript from "../src/assets/typescript.png"
-import reactImage from "../src/assets/react.png";
-import styled from "../src/assets/styled-components.png";
-import tailwind from "../src/assets/tailwind.png";
-import mysql from "../src/assets/my-sql.png";
-import bootstrap from "../src/assets/bootstrap.png";
-import redux from "../src/assets/redux.png";
-import mongodb from "../src/assets/mongodb.png"
-import nextjs from "../src/assets/nextjs13.png"
-import dotnet from "../src/assets/dotNET.png"
-import node from "../src/assets/node.png"
-import postgre from "../src/assets/postgresql.png"
-import prisma from "../src/assets/prisma.png"
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.png"
+import reactImage from "../assets/react.png";
+import styled from "../assets/styled-components.png";
+import tailwind from "../assets/tailwind.png";
+import mysql from "../assets/my-sql.png";
+import bootstrap from "../assets/bootstrap.png";
+import redux from "../assets/redux.png";
+import mongodb from "../assets/mongodb.png"
+import nextjs from "../assets/nextjs13.png"
+import dotnet from "../assets/dotNET.png"
+import node from "../assets/node.png"
+import postgre from "../assets/postgresql.png"
+import prisma from "../assets/prisma.png"
 
 export const techs = [
     {

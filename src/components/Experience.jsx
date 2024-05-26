@@ -1,4 +1,4 @@
-import { techs } from "../../utils/techs";
+import { techs } from "../constants/techs";
 
 const Experience = () => {
   return (
