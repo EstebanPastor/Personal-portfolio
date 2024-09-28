@@ -1,7 +1,7 @@
-import About from "./components/About";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <Home />
       <Experience />
-      <About />
+      <Footer />
       <SocialLinks />
     </div>
   );
