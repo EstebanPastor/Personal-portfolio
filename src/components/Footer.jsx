@@ -13,7 +13,7 @@ const About = () => {
         <div className="text-xl">
           <p>
             Si estás interesado/a en ver mis proyectos, están todos publicados
-            en mi perfil de Github. Pinchá en el siguiente enlace:
+            en mi perfil de Github. Clickea en el siguiente enlace:
           </p>
           <a
             href="https://github.com/EstebanPastor"
