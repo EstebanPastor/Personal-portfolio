@@ -32,7 +32,7 @@ export const Sociallinks = [
         Email <FiMail size={30} />
       </>
     ),
-    href: "estebanandrespastor@gmail.com",
+    href: "mailto:estebanandrespastor@example.com",
     style: "rounded-br-md",
   },
 ];
