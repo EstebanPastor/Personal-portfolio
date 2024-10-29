@@ -11,19 +11,21 @@ const Experience = () => {
           <p className="text-2xl font-bold border-b-4 border-gray-400 p-2 inline">
             Skills and experience
           </p>
+          <p className="py-4">Desarrollador freelance (2021 - 2024)</p>
           <p className="py-4">
             Banco Galicia front-end developer (2024 - presente)
           </p>
-          <p className="py-4">
-            Estas son las tecnologías con las que he trabajado y sigo
-            aprendiendo.
-          </p>
+          <p className="py-4">Freelance developer (2021 - 2024)</p>
           <p className="py-4">
             Banco Galicia front-end developer (2024 - present)
           </p>
           <p className="py-4">
+            Estas son las tecnologías con las que he trabajado y sigo
+            aprendiendo
+          </p>
+          <p className="py-4">
             These are the technologies with which I have worked and continue to
-            learn.
+            learn
           </p>
         </div>
 
