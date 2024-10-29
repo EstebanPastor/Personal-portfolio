@@ -25,10 +25,12 @@ const Home = () => {
             a rapid adaptation to different areas / technologies.
           </p>
           <p className="text-white py-5 max-w-md">
-            ¿Como contactarme? Envíame un mail: estebanandrespastor@gmail.com
+            ¿Como contactarme? Envíame un mail:
+            <p className="pt-2">estebanandrespastor@gmail.com</p>
           </p>
           <p className="text-white py-5 max-w-md">
-            How to contact me? Send me an email: estebanandrespastor@gmail.com
+            How to contact me? Send me an email:
+          <p className="pt-2">estebanandrespastor@gmail.com</p>
           </p>
         </div>
 

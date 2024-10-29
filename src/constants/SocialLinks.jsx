@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FiPhone } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 
 export const Sociallinks = [
   {
@@ -11,6 +11,8 @@ export const Sociallinks = [
     ),
     href: "https://www.linkedin.com/in/estebanandrespastor/",
     style: "rounded-tr-md",
+    target: "_blank",
+    rel: "noopener noreferrer",
   },
   {
     id: 2,
@@ -20,14 +22,17 @@ export const Sociallinks = [
       </>
     ),
     href: "https://github.com/EstebanPastor",
+    target: "_blank",
+    rel: "noopener noreferrer",
   },
   {
     id: 3,
     child: (
       <>
-        WhatsApp <FiPhone size={30} />
+        Email <FiMail size={30} />
       </>
     ),
-    href: "https://api.whatsapp.com/send?phone=5493413629615&text=%C2%A1Contactate%20conmigo!",
+    href: "estebanandrespastor@gmail.com",
+    style: "rounded-br-md",
   },
 ];
