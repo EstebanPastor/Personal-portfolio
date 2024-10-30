@@ -35,12 +35,6 @@ const About = () => {
             GITHUB
           </a>
         </div>
-        <footer className="border-t-2 border-gray-500 pt-4">
-          <p className="text-center text-lg">
-            &copy; {new Date().getFullYear()} Esteban Pastor. All rights
-            reserved.
-          </p>
-        </footer>
       </div>
     </div>
   );
