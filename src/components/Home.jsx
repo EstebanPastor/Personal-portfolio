@@ -6,10 +6,10 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mb-10 md:mb-0 md:mr-2">
-          <h2 className="text-4xl mt-6 sm:text-5xl md:text-7xl font-bold text-white">
+          <h2 className="text-3xl mt-6 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
             Web developer
           </h2>
-          <p className="text-white py-5 max-w-md">
+          <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
             Mi nombre es Esteban Andres Pastor, soy un desarrollador
             especializado en el desarrollo front-end y back-end enfocado a
             resultados, utilización de buenas prácticas, calidad del código y
@@ -17,24 +17,26 @@ const Home = () => {
             pensamiento lógico y escucha activa que hacen una adaptación rápida
             a diferentes áreas / tecnologías.
           </p>
-          <p className="text-white py-5 max-w-md">
+          <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
             My name is Esteban Andres Pastor, I am a developer specialized in
             front-end and back-end development focused on results, use of good
-            practices, code quality and resolution of short term problems. I
-            have a quick learner, thinking logic and active listening that make
-            a rapid adaptation to different areas / technologies.
+            practices, code quality and resolution of short-term problems. I
+            have a quick learner, logical thinking, and active listening skills
+            that make me adapt quickly to different areas/technologies.
           </p>
-          <p className="text-white py-5 max-w-md">
-            ¿Como contactarme? Envíame un mail:
-            <p className="pt-2">estebanandrespastor@gmail.com</p>
+          <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
+            ¿Cómo contactarme? Envíame un correo a:
+            <span className="block pt-2 text-blue-300">
+              estebanandrespastor@gmail.com
+            </span>
           </p>
-          <p className="text-white py-5 max-w-md">
-            How to contact me? Send me an email:
-          <p className="pt-2">estebanandrespastor@gmail.com</p>
+          <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
+            How to contact me? Send me an email at:
+            <span className="block pt-2 text-blue-300">
+              estebanandrespastor@gmail.com
+            </span>
           </p>
         </div>
-
-        <div></div>
       </div>
     </div>
   );
