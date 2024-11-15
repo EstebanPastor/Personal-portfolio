@@ -11,20 +11,15 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-signature text-white">
-            Esteban Pastor
+            Bienvenido/a
           </h1>
 
-          {/* Botón del menú para dispositivos móviles */}
           <div className="md:hidden">
-            <button
-              onClick={() => setNav(!nav)}
-              className="p-4 text-gray-500"
-            >
+            <button onClick={() => setNav(!nav)} className="p-4 text-gray-500">
               {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </button>
           </div>
 
-          {/* Links del menú en pantalla completa */}
           <ul className="hidden md:flex">
             {links.map(({ id, link }) => (
               <li
@@ -49,10 +44,7 @@ const NavBar = () => {
         <div className="md:hidden">
           <ul className="flex flex-col items-center bg-gradient-to-b from-black to-gray-800 text-gray-500 space-y-4 py-8">
             {links.map(({ id, link }) => (
-              <li
-                key={id}
-                className="text-2xl"
-              >
+              <li key={id} className="text-2xl">
                 <Link
                   onClick={() => setNav(!nav)}
                   to={link}
