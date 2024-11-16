@@ -13,7 +13,7 @@ const Experience = () => {
           </p>
           <p className="py-4">Desarrollador freelance (2021 - 2024)</p>
           <p className="py-4">
-            Banco Galicia front-end developer (2024 - presente)
+            Banco Galicia desarrollador front-end  (2024 - presente)
           </p>
           <p className="py-4">Freelance developer (2021 - 2024)</p>
           <p className="py-4">

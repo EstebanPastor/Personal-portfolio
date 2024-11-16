@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaHandSparkles  } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { links } from "../constants/links";
 
@@ -10,8 +10,8 @@ const NavBar = () => {
     <nav className="bg-black fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-signature text-white">
-            Bienvenido/a
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-signature text-white flex items-center">
+            Bienvenido/a <FaHandSparkles  className="ml-2 text-yellow-400" />
           </h1>
 
           <div className="md:hidden">

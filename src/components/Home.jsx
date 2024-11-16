@@ -7,22 +7,22 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mb-10 md:mb-0 md:mr-2">
           <h2 className="text-3xl mt-6 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-            Web developer
+            Esteban Pastor
           </h2>
           <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
-            Mi nombre es Esteban Andres Pastor, soy un desarrollador
-            especializado en el desarrollo front-end y back-end enfocado a
-            resultados, utilización de buenas prácticas, calidad del código y
-            resolución de problemas a corto plazo. Poseo un aprendizaje rápido,
-            pensamiento lógico y escucha activa que hacen una adaptación rápida
-            a diferentes áreas / tecnologías.
+            Soy un desarrollador de software especializado en el desarrollo
+            front-end y back-end enfocado a resultados, utilización de buenas
+            prácticas, calidad del código y resolución de problemas a corto
+            plazo. Poseo un aprendizaje rápido, pensamiento lógico y escucha
+            activa que hacen una adaptación rápida a diferentes áreas /
+            tecnologías.
           </p>
           <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
-            My name is Esteban Andres Pastor, I am a developer specialized in
-            front-end and back-end development focused on results, use of good
-            practices, code quality and resolution of short-term problems. I
-            have a quick learner, logical thinking, and active listening skills
-            that make me adapt quickly to different areas/technologies.
+            I am a software developer specialized in front-end and back-end
+            development focused on results, use of good practices, code quality
+            and resolution of short-term problems. I have a quick learner,
+            logical thinking, and active listening skills that make me adapt
+            quickly to different areas/technologies.
           </p>
           <p className="text-white py-4 max-w-md text-center md:text-left text-sm sm:text-base">
             ¿Cómo contactarme? Envíame un correo a:
