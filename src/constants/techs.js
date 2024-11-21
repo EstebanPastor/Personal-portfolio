@@ -14,7 +14,7 @@ import dotnet from "../assets/dotNET.png"
 import node from "../assets/node.png"
 import postgre from "../assets/postgresql.png"
 import prisma from "../assets/prisma.png"
-import galicia from "../assets/galicia.png"
+
 
 export const techs = [
     {
@@ -113,9 +113,5 @@ export const techs = [
       title: "Prisma",
       style: "shadow-violet-400",
     },
-    {
-      id: 17,
-      src: galicia,
-      title: "Banco Galicia",
-    }
+    
 ];

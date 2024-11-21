@@ -1,4 +1,5 @@
 import { techs } from "../constants/techs";
+import { experienceLogos } from "../constants/logos";
 
 const Experience = () => {
   return (
@@ -15,7 +16,10 @@ const Experience = () => {
 
           <p className="py-4 flex items-center justify-center">
             <img
-              src={techs.find((tech) => tech.title === "Banco Galicia").src} // Mapea el ícono de Banco Galicia
+              src={
+                experienceLogos.find((logo) => logo.title === "Banco Galicia")
+                  ?.src
+              }
               alt="Banco Galicia"
               className="w-8 h-8 mr-2"
             />
@@ -26,7 +30,10 @@ const Experience = () => {
 
           <p className="py-4 flex items-center justify-center">
             <img
-              src={techs.find((tech) => tech.title === "Banco Galicia").src} // Mapea el ícono de Banco Galicia
+              src={
+                experienceLogos.find((logo) => logo.title === "Banco Galicia")
+                  ?.src
+              }
               alt="Banco Galicia"
               className="w-8 h-8 mr-2"
             />
