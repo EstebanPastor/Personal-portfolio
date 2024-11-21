@@ -12,13 +12,27 @@ const Experience = () => {
             Skills and experience
           </p>
           <p className="py-4">Desarrollador freelance (2021 - 2024)</p>
-          <p className="py-4">
-            Banco Galicia desarrollador front-end  (2024 - presente)
+
+          <p className="py-4 flex items-center justify-center">
+            <img
+              src={techs.find((tech) => tech.title === "Banco Galicia").src} // Mapea el ícono de Banco Galicia
+              alt="Banco Galicia"
+              className="w-8 h-8 mr-2"
+            />
+            Banco Galicia desarrollador front-end (2024 - presente)
           </p>
+
           <p className="py-4">Freelance developer (2021 - 2024)</p>
-          <p className="py-4">
+
+          <p className="py-4 flex items-center justify-center">
+            <img
+              src={techs.find((tech) => tech.title === "Banco Galicia").src} // Mapea el ícono de Banco Galicia
+              alt="Banco Galicia"
+              className="w-8 h-8 mr-2"
+            />
             Banco Galicia front-end developer (2024 - present)
           </p>
+
           <p className="py-4">
             Estas son las tecnologías con las que he trabajado y sigo
             aprendiendo
