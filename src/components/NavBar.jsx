@@ -20,11 +20,6 @@ const NavBar = () => {
             {welcomeMessage} <FaHandSparkles className="ml-2 text-yellow-400" />
           </h1>
 
-          <div className="md:hidden">
-            <button onClick={() => setNav(!nav)} className="p-4 text-gray-500">
-              {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
-            </button>
-          </div>
         </div>
       </div>
 
