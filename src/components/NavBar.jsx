@@ -15,11 +15,10 @@ const NavBar = () => {
   return (
     <nav className="bg-black w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-center items-center h-20">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-signature text-white flex items-center">
             {welcomeMessage} <FaHandSparkles className="ml-2 text-yellow-400" />
           </h1>
-
         </div>
       </div>
 
