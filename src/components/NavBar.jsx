@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { FaBars, FaTimes, FaHandSparkles } from "react-icons/fa";
+import { FaHandSparkles } from "react-icons/fa";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
