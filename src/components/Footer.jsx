@@ -31,7 +31,7 @@ const About = () => {
           </p>
           <a
             href="https://github.com/EstebanPastor"
-            className="bg-slate-400 rounded-md px-3 py-2 inline-block mt-2"
+            className="bg-slate-400 rounded-md px-3 }py-2 inline-block mt-2"
             target="_blank"
           >
             GITHUB
