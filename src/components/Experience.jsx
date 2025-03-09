@@ -5,9 +5,9 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-2"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center items-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-start items-center w-full h-full text-white">
         <div className="text-center">
           {/* Español */}
           <p className="text-2xl font-bold border-b-4 border-gray-400 p-2 inline">
@@ -37,11 +37,6 @@ const Experience = () => {
             Banco Galicia - Desarrollador Front-End (2024 - Presente)
           </p>
 
-          <p className="py-4">
-            Estas son las tecnologías con las que he trabajado y sigo
-            aprendiendo:
-          </p>
-
           <p className="text-2xl font-bold border-b-4 border-gray-400 p-2 inline mt-6">
             Skills and Experience
           </p>
@@ -68,6 +63,10 @@ const Experience = () => {
             />
             Banco Galicia - Front-End Developer (2024 - Present)
           </p>
+          <p className="py-4">
+            Estas son las tecnologías con las que he trabajado y sigo
+            aprendiendo:
+          </p>
 
           <p className="py-4">
             These are the technologies with which I have worked and continue to
@@ -82,7 +81,7 @@ const Experience = () => {
               className={`shadow-md hover:scale-105 duration-500 py-4 rounded-lg ${style}`}
             >
               <img src={src} alt={title} className="w-20 mx-auto" />
-              <p className="mt-6 text-center">{title}</p>
+              <p className="mt-4 text-center text-sm sm:text-base">{title}</p>
             </div>
           ))}
         </div>
