@@ -10,15 +10,17 @@ const About = () => {
             Projects
           </p>
         </div>
+
         <div className="text-xl text-center">
           <p>
             Si estás interesado/a en ver mis proyectos, están todos publicados
-            en mi perfil de Github. Clickea en el siguiente enlace:
+            en mi perfil de Github. Haz clic en el siguiente enlace:
           </p>
           <a
             href="https://github.com/EstebanPastor"
             target="_blank"
-            className="bg-slate-400 rounded-md px-3 py-2 inline-block mt-2"
+            rel="noopener noreferrer"
+            className="bg-slate-500 hover:bg-slate-600 text-white font-semibold rounded-lg px-4 py-2 inline-block mt-4 transition-all duration-300"
           >
             GITHUB
           </a>
@@ -31,8 +33,9 @@ const About = () => {
           </p>
           <a
             href="https://github.com/EstebanPastor"
-            className="bg-slate-400 rounded-md px-3 }py-2 inline-block mt-2"
             target="_blank"
+            rel="noopener noreferrer"
+            className="bg-slate-500 hover:bg-slate-600 text-white font-semibold rounded-lg px-4 py-2 inline-block mt-4 transition-all duration-300"
           >
             GITHUB
           </a>

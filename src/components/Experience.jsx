@@ -9,10 +9,21 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center items-center w-full h-full text-white">
         <div className="text-center">
+          {/* Español */}
           <p className="text-2xl font-bold border-b-4 border-gray-400 p-2 inline">
-            Skills and experience
+            Habilidades y experiencia
           </p>
-          <p className="py-4">Desarrollador freelance (2021 - 2024)</p>
+
+          <p className="py-4">Desarrollador freelance (2020 - 2022)</p>
+
+          <p className="py-4 flex items-center justify-center">
+            <img
+              src={experienceLogos.find((logo) => logo.title === "DPTV")?.src}
+              alt="DPTV"
+              className="w-8 h-8 mr-2"
+            />
+            DPTV - Desarrollador Front-End (2022 - 2024)
+          </p>
 
           <p className="py-4 flex items-center justify-center">
             <img
@@ -23,30 +34,44 @@ const Experience = () => {
               alt="Banco Galicia"
               className="w-8 h-8 mr-2"
             />
-            Banco Galicia desarrollador front-end (2024 - presente)
-          </p>
-
-          <p className="py-4">Freelance developer (2021 - 2024)</p>
-
-          <p className="py-4 flex items-center justify-center">
-            <img
-              src={
-                experienceLogos.find((logo) => logo.title === "Banco Galicia")
-                  ?.src
-              }
-              alt="Banco Galicia"
-              className="w-8 h-8 mr-2"
-            />
-            Banco Galicia front-end developer (2024 - present)
+            Banco Galicia - Desarrollador Front-End (2024 - Presente)
           </p>
 
           <p className="py-4">
             Estas son las tecnologías con las que he trabajado y sigo
-            aprendiendo
+            aprendiendo:
           </p>
+
+          <p className="text-2xl font-bold border-b-4 border-gray-400 p-2 inline mt-6">
+            Skills and Experience
+          </p>
+
+          <p className="py-4">Freelance Developer (2020 - 2022)</p>
+
+          <p className="py-4 flex items-center justify-center">
+            <img
+              src={experienceLogos.find((logo) => logo.title === "DPTV")?.src}
+              alt="DPTV"
+              className="w-8 h-8 mr-2"
+            />
+            DPTV - Front-End Developer (2022 - 2024)
+          </p>
+
+          <p className="py-4 flex items-center justify-center">
+            <img
+              src={
+                experienceLogos.find((logo) => logo.title === "Banco Galicia")
+                  ?.src
+              }
+              alt="Banco Galicia"
+              className="w-8 h-8 mr-2"
+            />
+            Banco Galicia - Front-End Developer (2024 - Present)
+          </p>
+
           <p className="py-4">
             These are the technologies with which I have worked and continue to
-            learn
+            learn:
           </p>
         </div>
 
@@ -56,11 +81,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-4 rounded-lg ${style}`}
             >
-              <img
-                src={src}
-                alt="technologies-images"
-                className="w-20 mx-auto"
-              />
+              <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-6 text-center">{title}</p>
             </div>
           ))}
