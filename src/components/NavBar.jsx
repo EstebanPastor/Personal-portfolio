@@ -24,8 +24,6 @@ const NavBar = () => {
           <ul className="flex flex-col items-center bg-gradient-to-b from-black to-gray-800 text-gray-500 space-y-4 py-8"></ul>
         </div>
       )}
-
-      <div className="hidden md:flex justify-center space-x-8 text-white"></div>
     </nav>
   );
 };
